@@ -305,22 +305,65 @@ line-height:1.7;
 </section>
 
 <a href="https://wa.me/5493765224863" 
-style="
+class="floating-btn">
+📲 WhatsApp
+</a>
+
+<style>
+
+.floating-btn{
 position:fixed;
 bottom:20px;
 right:20px;
 background:#25D366;
 color:black;
-padding:16px 22px;
-border-radius:50px;
+padding:16px 24px;
+border-radius:60px;
 font-weight:bold;
 text-decoration:none;
-box-shadow:0 0 25px rgba(37,211,102,0.55);
-z-index:999;
 font-size:18px;
-">
-📲 WhatsApp
-</a>
+z-index:999;
+box-shadow:
+0 0 10px rgba(37,211,102,0.5),
+0 0 25px rgba(37,211,102,0.45),
+0 0 45px rgba(37,211,102,0.25);
+animation:pulse 2s infinite;
+transition:0.3s;
+}
+
+.floating-btn:hover{
+transform:scale(1.08);
+}
+
+@keyframes pulse{
+
+0%{
+transform:scale(1);
+box-shadow:
+0 0 10px rgba(37,211,102,0.5),
+0 0 25px rgba(37,211,102,0.45),
+0 0 45px rgba(37,211,102,0.25);
+}
+
+50%{
+transform:scale(1.06);
+box-shadow:
+0 0 20px rgba(37,211,102,0.8),
+0 0 40px rgba(37,211,102,0.6),
+0 0 60px rgba(37,211,102,0.4);
+}
+
+100%{
+transform:scale(1);
+box-shadow:
+0 0 10px rgba(37,211,102,0.5),
+0 0 25px rgba(37,211,102,0.45),
+0 0 45px rgba(37,211,102,0.25);
+}
+
+}
+
+</style>
 
 </body>
 </html>
