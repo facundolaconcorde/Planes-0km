@@ -3,54 +3,68 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>🔥 Peugeot 0km | Facundo Wasilczyk</title>
 
 <style>
 
+*{
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
 body{
 margin:0;
-font-family:Arial;
+font-family:Arial, sans-serif;
 background:linear-gradient(135deg,#07111f,#0f172a,#000);
 color:white;
+overflow-x:hidden;
 }
 
 .hero{
-padding:80px 20px;
+padding:90px 20px;
 text-align:center;
-background:linear-gradient(135deg,#001d3d,#003566,#000814);
+background:
+linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.7)),
+linear-gradient(135deg,#001d3d,#003566,#000814);
 }
 
 .hero h1{
-font-size:52px;
-margin-bottom:20px;
+font-size:60px;
+line-height:1.1;
+margin-bottom:25px;
+text-shadow:0 0 20px rgba(255,255,255,0.15);
 }
 
 .hero p{
 font-size:20px;
 color:#d6d6d6;
-max-width:700px;
+max-width:750px;
 margin:auto;
+line-height:1.7;
 }
 
 .btn{
 display:inline-block;
-margin-top:30px;
-padding:16px 35px;
+margin-top:35px;
+padding:18px 38px;
 background:#25D366;
 color:black;
 font-weight:bold;
 text-decoration:none;
-border-radius:14px;
+border-radius:16px;
 font-size:18px;
 transition:0.3s;
+box-shadow:0 0 25px rgba(37,211,102,0.35);
 }
 
 .btn:hover{
-transform:scale(1.05);
+transform:scale(1.06);
+box-shadow:0 0 35px rgba(37,211,102,0.6);
 }
 
 .section{
-padding:70px 20px;
+padding:80px 20px;
 max-width:1200px;
 margin:auto;
 }
@@ -62,50 +76,77 @@ gap:25px;
 }
 
 .card{
-background:#101826;
-padding:20px;
-border-radius:25px;
-box-shadow:0 0 25px rgba(0,0,0,0.4);
+background:rgba(16,24,38,0.9);
+padding:22px;
+border-radius:28px;
+box-shadow:0 0 30px rgba(0,0,0,0.4);
+border:1px solid rgba(255,255,255,0.08);
+transition:0.3s;
+backdrop-filter:blur(8px);
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 35px rgba(37,211,102,0.15);
 }
 
 .card img{
 width:100%;
 border-radius:18px;
-height:280px;
-object-fit:cover;
+height:230px;
+object-fit:contain;
+background:#0b1220;
+padding:10px;
 }
 
 .card h3{
-font-size:28px;
-margin-top:15px;
+font-size:30px;
+margin-top:18px;
+margin-bottom:10px;
 }
 
 .card p{
-color:#ccc;
+color:#d1d1d1;
 font-size:17px;
-line-height:1.5;
+line-height:1.6;
 }
 
 .footer{
 text-align:center;
-padding:70px 20px;
+padding:90px 20px;
 background:#050b14;
 }
 
 .video-section{
-padding:70px 20px;
+padding:80px 20px;
 text-align:center;
 }
 
 .video-title{
-font-size:42px;
+font-size:48px;
 margin-bottom:35px;
 }
 
 iframe{
 max-width:900px;
-border-radius:25px;
-box-shadow:0 0 30px rgba(0,0,0,0.5);
+border-radius:28px;
+box-shadow:0 0 40px rgba(0,0,0,0.5);
+width:100%;
+}
+
+.badge{
+display:inline-block;
+background:rgba(37,211,102,0.15);
+border:1px solid rgba(37,211,102,0.4);
+padding:12px 20px;
+border-radius:50px;
+margin-top:25px;
+font-weight:bold;
+color:#25D366;
+}
+
+.highlight{
+color:#25D366;
 }
 
 </style>
@@ -118,42 +159,46 @@ box-shadow:0 0 30px rgba(0,0,0,0.5);
 <img 
 src="https://i.ibb.co/d08XR5q8/IMG-20260407-WA0052.jpg"
 style="
-width:170px;
-height:170px;
+width:180px;
+height:180px;
 border-radius:50%;
 object-fit:cover;
 border:5px solid #25D366;
-margin-bottom:25px;
-box-shadow:0 0 25px rgba(37,211,102,0.4);
+margin-bottom:30px;
+box-shadow:0 0 30px rgba(37,211,102,0.45);
 ">
 
 <h1>
-🚘 ¿ESTÁS BUSCANDO UN AUTO? 🔥
+🔥 SUBITE HOY A TU <span class="highlight">PEUGEOT 0KM</span> 🔥
 </h1>
 
-<p style="
-max-width:700px;
-margin:auto;
-font-size:19px;
-color:#d6d6d6;
-line-height:1.7;
-margin-bottom:20px;
-">
+<p>
 
-👋 ¡Hola! ¿Cómo te va?
+🚘 Accedé a tu Peugeot 0km con cuotas accesibles y financiación flexible.
 
-Mi nombre es Facundo y hace más de 2 años me dedico al rubro automotor ayudando a personas como vos a encontrar la mejor opción para acceder a su Peugeot 0km 🚗✨
+<br><br>
 
-✅ Financiación flexible  
-✅ Entrega pactada  
-✅ Atención personalizada  
-✅ Asesoramiento real
+🔥 Entrega pactada  
+<br>
+💥 Tomamos tu usado  
+<br>
+📲 Atención personalizada  
+<br>
+✅ Asesoramiento real de principio a fin
+
+<br><br>
+
+👋 Soy Facundo y hace más de 2 años ayudo a personas a encontrar la mejor opción para subirse a su próximo vehículo.
 
 </p>
 
 <a class="btn" href="https://wa.me/5493765224863">
-📲 CONSULTAR AHORA
+🔥 QUIERO MI PEUGEOT
 </a>
+
+<div class="badge">
+⚠️ Cupos limitados para entrega pactada
+</div>
 
 </section>
 
@@ -164,7 +209,6 @@ Mi nombre es Facundo y hace más de 2 años me dedico al rubro automotor ayudand
 </h2>
 
 <iframe
-width="100%"
 height="500"
 src="https://www.youtube.com/embed/eAolja_1rQQ?autoplay=1&mute=1&loop=1&playlist=eAolja_1rQQ"
 title="Video"
@@ -177,22 +221,23 @@ allowfullscreen>
 <section class="section">
 
 <h2 style="
-font-size:45px;
+font-size:50px;
 text-align:center;
-margin-bottom:50px;
+margin-bottom:55px;
 ">
-🔥 Vehículos Disponibles 🚘
+🔥 VEHÍCULOS DISPONIBLES 🚘
 </h2>
 
 <div class="cards">
 
 <div class="card">
+
 <img src="https://i.ibb.co/wNMgZ8bQ/el-peugeot-208-aumento-un-1percent-en-promedio-N7-PPCJIHG5-EWFFRAFTFQJY5-WIE.jpg">
 
 <h3>🚗 Peugeot 208</h3>
 
 <p>
-Accedé al nuevo Peugeot 208 con financiación flexible y entrega asegurada 🔥
+🔥 Anticipo mínimo y cuotas accesibles para acceder al nuevo Peugeot 208.
 </p>
 
 </div>
@@ -204,7 +249,7 @@ Accedé al nuevo Peugeot 208 con financiación flexible y entrega asegurada 🔥
 <h3>🚙 Peugeot 2008</h3>
 
 <p>
-Tomamos tu usado como parte de pago y te ayudamos a subirte a tu próximo SUV 💥
+💥 Entrega pactada y posibilidad de tomar tu usado como parte de pago.
 </p>
 
 </div>
@@ -216,7 +261,7 @@ Tomamos tu usado como parte de pago y te ayudamos a subirte a tu próximo SUV �
 <h3>🚐 Peugeot Expert</h3>
 
 <p>
-Ideal para trabajo o logística con cuotas accesibles y asesoramiento personalizado ⭐
+⭐ Ideal para trabajo o logística con financiación flexible y atención personalizada.
 </p>
 
 </div>
@@ -228,27 +273,46 @@ Ideal para trabajo o logística con cuotas accesibles y asesoramiento personaliz
 <section class="footer">
 
 <h2 style="
-font-size:48px;
+font-size:52px;
 margin-bottom:20px;
 ">
-🔥 ¿Listo para tu Peugeot 0km? 🚘
+🔥 ¿LISTO PARA TU PEUGEOT 0KM? 🚘
 </h2>
 
 <p style="
-font-size:20px;
+font-size:22px;
 color:#ccc;
-max-width:700px;
+max-width:750px;
 margin:auto;
-margin-bottom:30px;
+margin-bottom:35px;
+line-height:1.7;
 ">
-Hablame ahora y descubrí las mejores opciones de financiación disponibles 📲
+📲 Hablame ahora y descubrí las mejores opciones de financiación disponibles para acceder a tu próximo vehículo.
 </p>
 
 <a class="btn" href="https://wa.me/5493765224863">
-📲 HABLAR POR WHATSAPP
+🔥 HABLAR POR WHATSAPP
 </a>
 
 </section>
+
+<a href="https://wa.me/5493765224863" 
+style="
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:black;
+padding:16px 22px;
+border-radius:50px;
+font-weight:bold;
+text-decoration:none;
+box-shadow:0 0 25px rgba(37,211,102,0.55);
+z-index:999;
+font-size:18px;
+">
+📲 WhatsApp
+</a>
 
 </body>
 </html>
